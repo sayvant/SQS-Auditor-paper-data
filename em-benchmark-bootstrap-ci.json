@@ -1,0 +1,94 @@
+{
+  "n_bootstrap": 10000,
+  "generated_at": "2026-05-21T23:23:17.452Z",
+  "summaries": [
+    {
+      "label": "sayvant · run_sayvant_claude-opus-4-7_2026-05-21T23-19-56-506Z",
+      "n": 23,
+      "drug_fidelity": {
+        "mean": 0.9420289855072466,
+        "lo": 0.8913043478260869,
+        "hi": 0.9855072463768116
+      },
+      "home_meds_capture": {
+        "mean": 0.9682539682539684,
+        "lo": 0.9206349206349206,
+        "hi": 1
+      },
+      "mcc_capture": {
+        "mean": 0.95,
+        "lo": 0.85,
+        "hi": 1
+      },
+      "cc_capture": {
+        "mean": 0.8421052631578947,
+        "lo": 0.6842105263157895,
+        "hi": 1
+      },
+      "critical_care_documented": {
+        "mean": 1,
+        "lo": 1,
+        "hi": 1
+      },
+      "problem_count": {
+        "mean": 4.3478260869565215,
+        "lo": 3.391304347826087,
+        "hi": 5.3478260869565215
+      },
+      "section_coverage": {
+        "mean": 1,
+        "lo": 1,
+        "hi": 1
+      },
+      "latency_ms": {
+        "mean": 22013.652173913044,
+        "lo": 20704.565217391304,
+        "hi": 23367.956521739132
+      }
+    },
+    {
+      "label": "comparator · run_comparator_claude-sonnet-4-5_2026-05-21T23-22-09-751Z",
+      "n": 23,
+      "drug_fidelity": {
+        "mean": 0.9152864044168393,
+        "lo": 0.8526570048309179,
+        "hi": 0.9685990338164252
+      },
+      "home_meds_capture": {
+        "mean": 0.9523809523809523,
+        "lo": 0.8730158730158731,
+        "hi": 1
+      },
+      "mcc_capture": {
+        "mean": 0.9550000000000001,
+        "lo": 0.8899999999999999,
+        "hi": 1
+      },
+      "cc_capture": {
+        "mean": 0.5789473684210527,
+        "lo": 0.3947368421052631,
+        "hi": 0.7631578947368421
+      },
+      "critical_care_documented": {
+        "mean": 0,
+        "lo": 0,
+        "hi": 0
+      },
+      "problem_count": {
+        "mean": 0,
+        "lo": 0,
+        "hi": 0
+      },
+      "section_coverage": {
+        "mean": 1,
+        "lo": 1,
+        "hi": 1
+      },
+      "latency_ms": {
+        "mean": 8770.391304347826,
+        "lo": 8405.04347826087,
+        "hi": 9165.08695652174
+      }
+    }
+  ]
+}

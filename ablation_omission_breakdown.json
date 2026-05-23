@@ -1,0 +1,43 @@
+{
+  "timestamp": "2026-04-15T02:00:53.525Z",
+  "checkCategoryCounts": {
+    "fabrication": 17,
+    "omission": 180,
+    "other": 80
+  },
+  "conditions": [
+    {
+      "name": "C: Bare pipeline (no repair)",
+      "passRate": 85.81560283687944,
+      "totalChecks": 282,
+      "totalFailing": 40,
+      "fabricationFailures": 0,
+      "omissionFailures": 35,
+      "otherFailures": 5,
+      "fabricationPassRate": "100.0%",
+      "omissionPassRate": "80.6%"
+    },
+    {
+      "name": "B: Server-side SG only",
+      "passRate": 81.56028368794325,
+      "totalChecks": 282,
+      "totalFailing": 52,
+      "fabricationFailures": 0,
+      "omissionFailures": 40,
+      "otherFailures": 12,
+      "fabricationPassRate": "100.0%",
+      "omissionPassRate": "77.8%"
+    },
+    {
+      "name": "A: SG + client-side repair",
+      "passRate": 79.43262411347519,
+      "totalChecks": 282,
+      "totalFailing": 58,
+      "fabricationFailures": 1,
+      "omissionFailures": 44,
+      "otherFailures": 13,
+      "fabricationPassRate": "94.1%",
+      "omissionPassRate": "75.6%"
+    }
+  ]
+}
